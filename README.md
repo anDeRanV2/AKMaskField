@@ -14,12 +14,12 @@
 [carthage-url]: https://github.com/Carthage/Carthage
 [platform-bage]: https://img.shields.io/cocoapods/p/LFAlertController.svg
 [platform-url]: http://cocoapods.org/pods/LFAlertController
-[swift-bage]:https://img.shields.io/badge/swift-3.0-orange.svg
+[swift-bage]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
 [license-bage]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
-[travis-bage]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+[travis-bage]: https://img.shields.io/travis/anDeRanV2/AKMaskField/master.svg
+[travis-url]: https://travis-ci.org/github/anDeRanV2/AKMaskField
 AKMaskField is UITextField subclass which allows enter data in the fixed quantity and in the certain format (credit cards, telephone numbers, dates, etc.). You only need setup mask and mask template visible for user.
 
 ![Preview](header.gif)
@@ -35,8 +35,8 @@ AKMaskField is UITextField subclass which allows enter data in the fixed quantit
 
 ## Requirements
 
-- iOS 8.0+
-- Xcode 7.3+
+- iOS 12.0+
+- Xcode 10+
 
 ## Installation
 

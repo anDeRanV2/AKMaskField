@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "010F96091DF2BFB000321C94"
-               BuildableName = "AKMaskField.framework"
-               BlueprintName = "AKMaskField"
+               BlueprintIdentifier = "01959A151DF1BA7700C9E359"
+               BuildableName = "AKMaskFieldExample.app"
+               BlueprintName = "AKMaskFieldExample"
                ReferencedContainer = "container:AKMaskField.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,15 +40,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "010F96091DF2BFB000321C94"
-            BuildableName = "AKMaskField.framework"
-            BlueprintName = "AKMaskField"
+            BlueprintIdentifier = "01959A151DF1BA7700C9E359"
+            BuildableName = "AKMaskFieldExample.app"
+            BlueprintName = "AKMaskFieldExample"
             ReferencedContainer = "container:AKMaskField.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -56,15 +57,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "010F96091DF2BFB000321C94"
-            BuildableName = "AKMaskField.framework"
-            BlueprintName = "AKMaskField"
+            BlueprintIdentifier = "01959A151DF1BA7700C9E359"
+            BuildableName = "AKMaskFieldExample.app"
+            BlueprintName = "AKMaskFieldExample"
             ReferencedContainer = "container:AKMaskField.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
