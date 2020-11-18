@@ -24,10 +24,19 @@
 		01959A231DF1BA7700C9E359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01959A211DF1BA7700C9E359 /* LaunchScreen.storyboard */; };
 		01959A2E1DF1BCC700C9E359 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01959A2D1DF1BCC700C9E359 /* ViewController.swift */; };
 		01959A411DF1C0F700C9E359 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01959A401DF1C0F700C9E359 /* fontawesome-webfont.ttf */; };
+		FD939C0B2565D82B00A0AB4B /* AKMaskField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010F960A1DF2BFB000321C94 /* AKMaskField.framework */; };
+		FD939C2A2565D92D00A0AB4B /* AKMaskFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD939C282565D92C00A0AB4B /* AKMaskFieldTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		010F960F1DF2BFB000321C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437112F31A4B22EF00FF6252 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010F96091DF2BFB000321C94;
+			remoteInfo = AKMaskField;
+		};
+		FD939C0C2565D82B00A0AB4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 437112F31A4B22EF00FF6252 /* Project object */;
 			proxyType = 1;
@@ -67,9 +76,10 @@
 		01959A1D1DF1BA7700C9E359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01959A1F1DF1BA7700C9E359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01959A221DF1BA7700C9E359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		01959A241DF1BA7700C9E359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01959A2D1DF1BCC700C9E359 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		01959A401DF1C0F700C9E359 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		FD939C062565D82B00A0AB4B /* AKMaskFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKMaskFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD939C282565D92C00A0AB4B /* AKMaskFieldTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKMaskFieldTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				010F96111DF2BFB000321C94 /* AKMaskField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD939C032565D82B00A0AB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD939C0B2565D82B00A0AB4B /* AKMaskField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +143,6 @@
 				01959A401DF1C0F700C9E359 /* fontawesome-webfont.ttf */,
 				01959A1F1DF1BA7700C9E359 /* Assets.xcassets */,
 				01959A211DF1BA7700C9E359 /* LaunchScreen.storyboard */,
-				01959A241DF1BA7700C9E359 /* Info.plist */,
 			);
 			path = AKMaskFieldExample;
 			sourceTree = "<group>";
@@ -135,6 +152,7 @@
 			children = (
 				010F960B1DF2BFB000321C94 /* AKMaskField */,
 				01959A171DF1BA7700C9E359 /* AKMaskFieldExample */,
+				FD939C072565D82B00A0AB4B /* AKMaskFieldTests */,
 				437112FC1A4B22EF00FF6252 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,8 +162,17 @@
 			children = (
 				01959A161DF1BA7700C9E359 /* AKMaskFieldExample.app */,
 				010F960A1DF2BFB000321C94 /* AKMaskField.framework */,
+				FD939C062565D82B00A0AB4B /* AKMaskFieldTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FD939C072565D82B00A0AB4B /* AKMaskFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD939C282565D92C00A0AB4B /* AKMaskFieldTests.swift */,
+			);
+			path = AKMaskFieldTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +226,24 @@
 			productReference = 01959A161DF1BA7700C9E359 /* AKMaskFieldExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FD939C052565D82B00A0AB4B /* AKMaskFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD939C0E2565D82B00A0AB4B /* Build configuration list for PBXNativeTarget "AKMaskFieldTests" */;
+			buildPhases = (
+				FD939C022565D82B00A0AB4B /* Sources */,
+				FD939C032565D82B00A0AB4B /* Frameworks */,
+				FD939C042565D82B00A0AB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD939C0D2565D82B00A0AB4B /* PBXTargetDependency */,
+			);
+			name = AKMaskFieldTests;
+			productName = AKMaskFieldTests;
+			productReference = FD939C062565D82B00A0AB4B /* AKMaskFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,7 +251,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0810;
+				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Artem Krachulov";
 				TargetAttributes = {
@@ -217,6 +262,11 @@
 					};
 					01959A151DF1BA7700C9E359 = {
 						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FD939C052565D82B00A0AB4B = {
+						CreatedOnToolsVersion = 12.2;
+						DevelopmentTeam = QB396B83NY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -236,6 +286,7 @@
 			targets = (
 				010F96091DF2BFB000321C94 /* AKMaskField */,
 				01959A151DF1BA7700C9E359 /* AKMaskFieldExample */,
+				FD939C052565D82B00A0AB4B /* AKMaskFieldTests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +307,13 @@
 				01959A411DF1C0F700C9E359 /* fontawesome-webfont.ttf in Resources */,
 				01959A201DF1BA7700C9E359 /* Assets.xcassets in Resources */,
 				01959A1E1DF1BA7700C9E359 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD939C042565D82B00A0AB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +344,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD939C022565D82B00A0AB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD939C2A2565D92D00A0AB4B /* AKMaskFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +359,11 @@
 			isa = PBXTargetDependency;
 			target = 010F96091DF2BFB000321C94 /* AKMaskField */;
 			targetProxy = 010F960F1DF2BFB000321C94 /* PBXContainerItemProxy */;
+		};
+		FD939C0D2565D82B00A0AB4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010F96091DF2BFB000321C94 /* AKMaskField */;
+			targetProxy = FD939C0C2565D82B00A0AB4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -337,6 +408,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.artemkrachulov.AKMaskField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -370,6 +442,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.artemkrachulov.AKMaskField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -531,6 +604,66 @@
 			};
 			name = Release;
 		};
+		FD939C0F2565D82B00A0AB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = QB396B83NY;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AKMaskFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perflyuens.AKMaskFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD939C102565D82B00A0AB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QB396B83NY;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = AKMaskFieldTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.perflyuens.AKMaskFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -557,6 +690,15 @@
 			buildConfigurations = (
 				437113181A4B22EF00FF6252 /* Debug */,
 				437113191A4B22EF00FF6252 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD939C0E2565D82B00A0AB4B /* Build configuration list for PBXNativeTarget "AKMaskFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD939C0F2565D82B00A0AB4B /* Debug */,
+				FD939C102565D82B00A0AB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
