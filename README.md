@@ -1,7 +1,8 @@
 # AKMaskField
 
-[![Carthage compatible][carthage-bage]][carthage-bage] 
-[![CocoaPods Compatible][pods-bage]][pods-bage]
+[![Carthage compatible][carthage-bage]][carthage-url] 
+[![CocoaPods compatible][pods-bage]][pods-url]
+[![Swift Package Manager compatible][spm-bage]][spm-url]
 
 [![Platform][platform-bage]][platform-bage]
 [![Swift Version][swift-bage]][swift-url]
@@ -12,6 +13,8 @@
 [pods-url]: https://cocoapods.org/
 [carthage-bage]: https://img.shields.io/badge/Carthage-compatible-brightgreen.svg
 [carthage-url]: https://github.com/Carthage/Carthage
+[spm-bage]: https://img.shields.io/badge/Swift%20Package%20Manager-compatible-blue
+[spm-url]: https://swift.org/package-manager/
 [platform-bage]: https://img.shields.io/cocoapods/p/LFAlertController.svg
 [platform-url]: http://cocoapods.org/pods/LFAlertController
 [swift-bage]:https://img.shields.io/badge/swift-5.0-orange.svg
