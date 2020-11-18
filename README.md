@@ -9,7 +9,7 @@
 [![Build Status][travis-bage]][travis-url]
 [![License][license-bage]][license-url]
 
-[pods-bage]: https://img.shields.io/badge/COCOAPODS-compatible-fb0006.svg
+[pods-bage]: https://img.shields.io/badge/CocoaPods-compatible-fb0006.svg
 [pods-url]: https://cocoapods.org/
 [carthage-bage]: https://img.shields.io/badge/Carthage-compatible-brightgreen.svg
 [carthage-url]: https://github.com/Carthage/Carthage
